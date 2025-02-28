@@ -1,0 +1,107 @@
+{
+	"info": {
+		"_postman_id": "41ff7a41-e3f8-46e6-9e33-1ec190efd342",
+		"name": "Michael_Rilan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23664377"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3200/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Bearer",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"rcc@email.com\",\r\n    \"password\": \"testing123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3200/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3200/order",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Bearer",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjExLCJpYXQiOjE3NDA3MzU5NDksImV4cCI6MTc0MDczOTU0OX0.qTlQE09fUEOhZeIKRJ8tlAK-Jen3wBASIdKvNobJMjM",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"product_id\": 1,\r\n    \"quantity\": 12\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3200/order",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3200/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"rcc@email.com\",\r\n    \"password\": \"testing123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3200/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

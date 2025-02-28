@@ -16,7 +16,7 @@
 
 <li>Download and install the Postman application to your computer by clicking this link:to this link: https://www.postman.com/downloads/</li>
 <li>Import the Michael_Rilan.postman_collection to your Postman App</li>
-<li>In the terminal, type this command to run the server : "npm i" to install all dependencies</li>
+<li>In the terminal, type this : "npm i" to install all dependencies</li>
 <li>In the terminal, type this command to run the server : "node app.js"</li>
 <li>Open the Postman app and follow the link depending on the request method below: </li>
 
